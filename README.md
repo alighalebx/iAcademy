@@ -1,3 +1,3 @@
 # iAcademy
 
-![alt text](https://pasteboard.co/faB895OpDSRc.jpg)
+![ezcv logo](https://pasteboard.co/faB895OpDSRc.jpg)
