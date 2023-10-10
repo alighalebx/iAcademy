@@ -8,11 +8,13 @@ import com.example.iacdemy.repositories.courses.CourseRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import java.math.BigDecimal;
 import java.util.stream.IntStream;
 
 @Configuration
+@EnableAspectJAutoProxy
 public class CourseCommandLineRunner {
     @Bean
     CommandLineRunner initDatabase(CourseRepository courseRepository){
@@ -31,3 +33,4 @@ public class CourseCommandLineRunner {
 }
 // AOP
 // sring security
+
